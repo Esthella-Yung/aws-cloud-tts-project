@@ -28,7 +28,7 @@ The entire infrastructure was fully provisioned using **Terraform**.
 
 ## 🏗️ Architecture Diagram  
 
-```"C:\Users\RahamaEsthellaAbdulW\Downloads\text-speech.drawio.png"
+[```"C:\Users\RahamaEsthellaAbdulW\Downloads\text-speech.drawio.png"](https://github.com/Esthella-Yung/aws-cloud-tts-project/blob/main/text-speech.drawio.png)
 
 ````
 
