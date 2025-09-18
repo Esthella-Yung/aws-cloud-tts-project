@@ -28,15 +28,8 @@ The entire infrastructure was fully provisioned using **Terraform**.
 
 ## 🏗️ Architecture Diagram  
 
-```<img width="611" height="587" alt="text-speech drawio" src="https://github.com/user-attachments/assets/54ed3283-4ee2-4ba5-82fc-a45ae8015bc9" />
+```"C:\Users\RahamaEsthellaAbdulW\Downloads\text-speech.drawio.png"
 
-flowchart TD
-    User -->|Enter text| Frontend[S3 Static Website]
-    Frontend -->|API Call| APIGateway[Amazon API Gateway]
-    APIGateway -->|Invoke| Lambda[AWS Lambda]
-    Lambda --> Polly[Amazon Polly]
-    Polly -->|Audio File| S3Bucket[Amazon S3 Bucket]
-    S3Bucket -->|Pre-signed URL| Frontend
 ````
 
 ---
